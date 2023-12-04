@@ -1,0 +1,11 @@
+# https://salsa.debian.org/snippets/95
+# uscan(1) configuration file.
+version=4
+
+opts="\
+pgpmode=none,\
+compression=xz,\
+repack,repacksuffix=+dfsg,\
+dversionmangle=s{[+~]dfsg\d*}{},\
+" https://github.com/hashicorp/go-memdb/releases \
+  .*/archive/v?(\d[\d\.]+)@ARCHIVE_EXT@$
